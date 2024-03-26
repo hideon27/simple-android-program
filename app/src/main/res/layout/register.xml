@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_register"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/shallow_blue"
+        android:elevation="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="1"
+        app:layout_constraintHeight_percent="0.08"
+        app:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:title=""
+        app:navigationIcon="@drawable/arrow_back_24px" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="工号id:"
+        android:textSize="14sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintWidth_percent="0.15"
+        app:layout_constraintHeight_percent="0.08"/>
+
+
+    <EditText
+        android:id="@+id/editText_register_id"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:hint="请输入工号id"
+        android:text="20131423"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintWidth_percent="0.8"
+        app:layout_constraintHeight_percent="0.08"/>
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="姓名:"
+        android:textSize="14sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintWidth_percent="0.15"
+        app:layout_constraintHeight_percent="0.08"/>
+
+
+    <EditText
+        android:id="@+id/editText_register_name"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:hint="请输入姓名"
+        android:text="张三"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintWidth_percent="0.8"
+        app:layout_constraintHeight_percent="0.08"/>
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="手机号:"
+        android:textSize="14sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintWidth_percent="0.15"
+        app:layout_constraintHeight_percent="0.08"/>
+
+
+    <EditText
+        android:id="@+id/editText_register_phone"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:hint="请输入手机号"
+        android:text="11392932231"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintWidth_percent="0.8"
+        app:layout_constraintHeight_percent="0.08"/>
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="用户名:"
+        android:textSize="14sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintVertical_bias="0.4"
+        app:layout_constraintWidth_percent="0.15"
+        app:layout_constraintHeight_percent="0.08"/>
+
+
+    <EditText
+        android:id="@+id/editText_register_userid"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:hint="请输入用户名"
+        android:text="root"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintVertical_bias="0.4"
+        app:layout_constraintWidth_percent="0.8"
+        app:layout_constraintHeight_percent="0.08"/>
+
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="密码:"
+        android:textSize="14sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintWidth_percent="0.15"
+        app:layout_constraintHeight_percent="0.08"/>
+
+
+    <EditText
+        android:id="@+id/editText_register_password"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:hint="请输入密码"
+        android:text="123"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintWidth_percent="0.8"
+        app:layout_constraintHeight_percent="0.08"/>
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="备注:"
+        android:textSize="14sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintVertical_bias="0.6"
+        app:layout_constraintWidth_percent="0.15"
+        app:layout_constraintHeight_percent="0.08"/>
+
+
+    <EditText
+        android:id="@+id/editText_register_describe"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:hint="请输入备注"
+        android:text="负责区域1"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintVertical_bias="0.6"
+        app:layout_constraintWidth_percent="0.8"
+        app:layout_constraintHeight_percent="0.08"/>
+
+    <Button
+        android:id="@+id/button_register_confirm"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="确定注册"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.85"
+        app:layout_constraintWidth_percent="0.3"
+        app:layout_constraintHeight_percent="0.08"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

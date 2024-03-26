@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_fragment_home"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/shallow_blue"
+        android:elevation="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="1"
+        app:layout_constraintHeight_percent="0.08"
+        app:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:title=""
+        app:navigationIcon="@drawable/arrow_back_24px" />
+
+    <ImageView
+        android:id="@+id/imageview_fragment_home_photo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.14"
+        app:layout_constraintWidth_percent="0.6"
+        app:layout_constraintHeight_percent="0.4"/>
+
+
+
+    <TextView
+        android:id="@+id/textView_fragment_home_result"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text=""
+        android:textSize="14sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.65"
+        app:layout_constraintWidth_percent="0.8"
+        app:layout_constraintHeight_percent="0.2"/>
+
+
+
+
+
+
+    <Button
+        android:id="@+id/button_fragment_home_camera"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text=""
+        android:textSize="14sp"
+        android:background="@drawable/photo_camera_24px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintVertical_bias="0.85"
+        app:layout_constraintWidth_percent="0.16"
+        app:layout_constraintHeight_percent="0.08"/>
+
+
+    <Button
+        android:id="@+id/button_fragment_home_image"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text=""
+        android:textSize="14sp"
+        android:background="@drawable/image_24px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.85"
+        app:layout_constraintWidth_percent="0.16"
+        app:layout_constraintHeight_percent="0.08"/>
+
+    <Button
+        android:id="@+id/button_fragment_home_submit"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="上传"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.76"
+        app:layout_constraintVertical_bias="0.85"
+        app:layout_constraintWidth_percent="0.16"
+        app:layout_constraintHeight_percent="0.08"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

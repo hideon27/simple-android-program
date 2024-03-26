@@ -1,0 +1,16 @@
+<resources>
+
+    <!-->
+    register
+    <-->
+    <string name="register_id_input">请输入用户名</string>
+
+
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="app_name">岩层识别系统</string>
+    <string name="button_login_login">登录</string>
+    <string name="button_login_register">注册</string>
+</resources>
